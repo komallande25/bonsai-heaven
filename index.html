@@ -9,22 +9,65 @@
         justify-content: center;
      }
     .heading{
-        font-size:40px;
-         color: #b366ff;
+        font-size:50px;
+         color: #9933ff;
          text-align: center;
     }
     .img{
         height: 60px;
-      }
+    }
+   
     .nav{
         display: flex;
         justify-content: start;
         font-size: 19px;
     }
     .nav:hover{
-        color:#d279a6;
-        transition: 0.5s;
+      color: #ff80bf;
+    
     }
+
+        
+    
+    h3{
+        font-size: 50px;
+        color: #2d5986;
+        text-align: center;
+    }
+    .card-container{
+      display:flex;
+     justify-content:center;
+
+    }
+    .card{
+      width: 200px;
+      height: 300px;
+      border: double 4px #a880ff;
+      border-radius: 20px;
+      background-color:#eee6ff;
+      padding: 30px 40px;
+      margin: 10px;
+    }
+    .card-img{
+        width: 200px;
+        margin: auto;
+        border-radius: 10px;
+    }
+    h4{
+      padding: 0;
+      margin: 10px;
+      font-size: 25px;
+    }
+    .btn{
+      display: block;
+      background-color:#a880ff ;
+      border-radius: 10px;
+      border: none;
+      padding: 10px 20px;
+      margin: 15px auto;
+      
+    }
+
          
    </style>
 </head>
@@ -41,16 +84,46 @@
          <a href="#cactus-plants"> Cactus-plants</a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href="#ferns">Ferns </a>&nbsp;&nbsp;&nbsp;&nbsp;
          <a href="#medicinal-plants">Medicinal plants</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="image/grocery-store.png"height="30px"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="image/login-avatar.png" height="30px"/>
+       <a href="cart.html"><img src="image/grocery-store.png"height="30px"/></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="login.html"><img src="image/login-avatar.png" height="30px"/></a>
       </div>
     <hr><hr>
-
     <div>
-        <img src="image/front-img.jpg" ><br><br>
+        <img src="image/front-img.jpg" width="1400px" >
     </div>
+    <br><br>
+    <h3 id="bonsia-tree">Bonsai-Tree</h3>
+<div class="card-container">
+  <div class="card">
+    <img src="image/bonsai-plants/boxwood-bonsai.jpg" class="card-img"/>
+     <h4>Boxwood bonsai plant</h4>
+     <button class="btn"> Add to cart </button>
+   </div>
 
+   <div class="card">
+    <img src="image/bonsai-plants/chinese-pepper.jpg" class="card-img"/>
+     <h4>Chinese-pepper bonsai plant</h4>
+     <button class="btn"> Add to cart </button>
+   </div>
 
+   <div class="card">
+    <img src="image/bonsai-plants/ficus-microcarpa.jpg" class="card-img"/>
+     <h4>Ficus-microcarpa </h4>
+     <button class="btn"> Add to cart </button>
+   </div>
+
+   <div class="card">
+    <img src="image/bonsai-plants/ficus-pandas.jpg" class="card-img"/>
+     <h4>Ficus-pandas bonsai plant</h4>
+     <button class="btn"> Add to cart </button>
+   </div>
+
+   <div class="card">
+    <img src="image/bonsai-plants/ficusbinsai.jpg" class="card-img"/>
+     <h4>Ficus-binsai bonsai plant</h4>
+     <button class="btn"> Add to cart </button>
+   </div>
+</div>
     
 </body>
 </html>
